@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/dicebg.jpg)no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body #container {
+    background-color: #ffe;
+    width: 30%;
+    height: 30vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px 10px #333;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body #container #btn {
+    padding: 1% 3%;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.35s ease-in-out;
+    box-shadow: 1px 1px 5px 1px #ccc;
+}
+
+body div #btn:hover {
+    transform: scale(1.1);
+}
+body #container #dices {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+body #container #dices img{
+    width: 50px;
+    height: 50px;
+}
+
+
